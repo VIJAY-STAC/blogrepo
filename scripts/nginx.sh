@@ -2,7 +2,7 @@
 #!/usr/bin/bash
 
 sudo systemctl daemon-reload
-sudo rm -f /etc/nginx/sites-enabled/default
+sudo rm -f /etc/nginx/sites-enabled/blog2
 
 sudo cp /home/ubuntu/blogrepo/nginx/nginx.conf /etc/nginx/sites-available/blog2
 sudo ln -s /etc/nginx/sites-available/blog2 /etc/nginx/sites-enabled/
