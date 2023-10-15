@@ -13,3 +13,4 @@ sudo gpasswd -a www-data ubuntu
 echo "Restarting nginx..."
 sudo systemctl restart nginx
 
+echo "Restarted nginx..."
