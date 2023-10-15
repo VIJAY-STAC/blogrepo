@@ -11,3 +11,4 @@ class BlogSerializer(serializers.ModelSerializer):
         exclude = ['created_at', 'updated_at']
         
     
+# > This class is a serializer for the Comment model. It will serialize all fields except for the
